@@ -17,6 +17,7 @@ body {
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
     background-color: #282828;
+    background-color: #536d2b;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
 }
@@ -67,11 +68,13 @@ p {
 
 .bg-primary {
     background-color: #333;
+    background-color: #738d4b;
 }
 
 .bg-dark {
     color: #eee;
     background-color: #222;
+    background-color: #637d3b;
 }
 
 .cursive {
@@ -89,6 +92,7 @@ p {
 
 .text-primary {
     color: #9c27b0;
+    color: #fff;
 }
 
 .modal-content {
@@ -115,6 +119,7 @@ footer {
     border-color: rgba(35,35,35,.05);
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
     background-color: #222;
+    background-color: #637d3b;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
@@ -122,7 +127,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #9c27b0;
+    /*color: #9c27b0;*/
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -131,7 +136,7 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #8b27b0;
+    /*color: #8b27b0;*/
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -144,19 +149,21 @@ footer {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     color: #eee;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9c27b0;
+    /*color: #9c27b0;*/
+    background-color: rgba(0,0,0,0.3);
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9c27b0 !important;
+    /*color: #9c27b0 !important;*/
+    color: #fff !important;
     background-color: transparent;
 }
 
@@ -164,6 +171,7 @@ footer {
 .navbar-default .nav>li.active>a:focus:hover
 {
     background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
 }
 
 
@@ -200,18 +208,19 @@ footer {
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #222;
+        background-color: #637d3b;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #9c27b0;
+       /* color: #9c27b0;*/
         padding: 20px;
         letter-spacing: 1px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #8b27b0;
+        /*color: #8b27b0;*/
     }
 
     .navbar-default.affix .nav > li>a,
@@ -222,7 +231,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9c27b0;
+        /*color: #9c27b0;*/
     }
 }
 
@@ -233,8 +242,9 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-image: url('../img/6019208_orig.jpg');
     background-position: center;
+    background-position: top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -252,6 +262,7 @@ header .header-content {
 header .header-content .inner h1 {
     margin-top: 0;
     margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.90);
 }
 
 header .header-content .inner p {
@@ -278,6 +289,7 @@ header .header-content .inner p {
 
 footer {
     background-color:#2d2d2d;
+    background-color: #536d2b;
 }
 
 @media(min-width:768px) {
@@ -291,7 +303,7 @@ footer {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 70%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
